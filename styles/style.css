@@ -1,0 +1,12 @@
+table, th, td {
+  border: 0.5px solid rgb(114, 108, 108);
+}
+
+button {
+  background-color: rgb(228, 157, 59);
+}
+
+.tableData {
+  height:400px;
+  overflow-y:auto;
+}

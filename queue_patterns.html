@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/underscore.js"></script>
+    <link rel="stylesheet" href="styles/style.css"></link>
+
+  </head>
+  <body>
+    <hr>
+    <h3>Queue Instantiation </h3>
+    <p>How many key/value pairs to instantiate?  <input type="number"/> </p>
+    <hr>
+
+    <div class="tableData">
+      <table>
+        <tr>
+          <th><button id="func">Functional</button></th>
+          <th><button id="func_share">Functional Shared</button></th>
+          <th><button id="proto">Prototypal</button></th>
+          <th><button id="pseudo">PseudoClassical</button></th>
+          <th><button id="es6">ES6</button></th>
+        </tr>
+
+        <tr>
+          <td id="func_data"></td>
+          <td id="func_share_data"></td>
+          <td id="func_proto_data"></td>
+          <td id="func_pseudo_data"></td>
+          <td id="func_es6_data"></td>
+        </tr>
+
+      </table>
+    </div>
+    <hr>
+    <p>key = enqueued item, value = dequeued item</p>
+
+    <script src="scripts/QueueInst.js"></script>
+  </body>
+</html>
