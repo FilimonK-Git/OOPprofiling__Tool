@@ -8,9 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
   // let Stack_ES6;
 
   var numValue;
-  $( "input").keyup(function() {
-    numValue = $( this ).val();
+  $("input").keyup(function() {
+    numValue = $(this).val();
   })
+
+  $('#gc').click(function () {
+    $('td').remove()
+  })
+
 
 //################################################################################################
   // functional stack
@@ -47,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
       $('<tr><td>' + i +' : '+ newInstance_StackFunctional.pop() + '</td></tr>').appendTo($('#func_data'))
     }
   }))
+
 
 
   //################################################################################################

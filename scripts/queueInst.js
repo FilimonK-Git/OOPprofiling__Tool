@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
     numValue = $( this ).val();
   })
 
+  $('#gc').click(function () {
+    $('td').remove()
+  })
+
 //################################################################################################
   // functional Queue
   Queue_Functional = function () {
